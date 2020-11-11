@@ -1,0 +1,11 @@
+.website-head {
+    background-color: #F28A13;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
