@@ -68,3 +68,23 @@ li a {
     transform: translate(-50%, -50%);
     line-height: 50px;
 }
+
+.margin-pic {
+    max-width: 30%;
+}
+
+.explanation {
+    font-family: quicksand;
+    display: flex;
+}
+
+.left-col {
+    margin-left: 4%;
+}
+
+.right-col {
+    margin-left: -8%;
+    text-align: left;
+}
+
+
