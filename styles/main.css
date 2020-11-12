@@ -4,14 +4,23 @@
 
 body {
     font-family: Goldman;
+    margin: 0 auto;
 }
+
 
 .website-head {
     background-color: #F28A13;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
+    min-height: 100px;
 }
+
+nav {
+    overflow: auto;
+}
+
+
 
 .title {
     padding-left: 40px;
@@ -48,11 +57,14 @@ li a {
     text-align: right;
     padding-top: 0px;
     position: absolute;
-    left: 1270px;
-    top: 200px
+    margin-left: 55%;
+    top: 28%
 }
 
 .introduction-letter {
-    padding-top: 50px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    transform: translate(-50%, -50%);
     line-height: 50px;
 }
