@@ -96,7 +96,7 @@ li a {
     color: coral;
 }
 
-/* Look at other pages and adjust for smaller screen size for this page */
+/* Look at other pages and adjust for smaller screen size for this page. */
 
 @media only screen and (max-width: 1400px) {
     .col-left {width: 100%;}
