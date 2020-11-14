@@ -64,6 +64,7 @@ li a {
     margin-left: 55%;
     top: 28%
 }
+   
 
 .introduction-letter {
     position: absolute;
@@ -71,6 +72,28 @@ li a {
     left: 30%;
     transform: translate(-50%, -50%);
     line-height: 50px;
+}
+
+@media only screen and (max-width: 1380px) {
+    
+    .introduction-letter {
+        text-align: center;
+        width: 100%;
+        left: 50%;
+          
+    }
+    .quote {
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+        top: 60%;
+    }
+    .introduction {
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
 }
 
 .margin-pic {
