@@ -122,7 +122,7 @@ li a {
 /* Look at other pages and adjust for smaller screen size for this page. */
 
 @media only screen and (max-width: 1400px) {
-    .col-left {width: 100%;}
+    .col-left-s2 {width: 100%;}
     .col-right {
         text-align: center;
         width: 100%;
@@ -162,3 +162,37 @@ li a {
     text-align: left;
 }
 
+.harry {
+    width: 500px;
+    margin-top: 2%;
+}
+
+.col-right-s3 {
+    margin-left: 12%;
+    text-align: left;
+    padding: 0;
+}
+
+.dom {
+    width: 520px;
+}
+.red-text {
+    color: red;
+}
+
+.col-left-s2 {
+    margin-left: 4%;
+}
+.left-col {
+    margin: 1%;
+}
+
+.col-left-s3 {
+    margin-left: 4%;
+}
+
+.sprint3-tech {
+    text-align: center;
+    font-family: quicksand;
+    display: block;
+}
